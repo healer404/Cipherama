@@ -1,0 +1,29 @@
+.menu-container{
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgba(98, 193, 255, 0.1);
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.menu-bar-dash-1, .menu-bar-dash-2, .menu-bar-dash-3{
+    width:30px;
+    height: 3px;
+    background-color: deepskyblue;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .menu-bar-dash-1{
+    -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.change .menu-bar-dash-2{
+    opacity: 0;
+}
+.change .menu-bar-dash-3{
+    -webkit-transform: rotate(45deg) translate(-8px, -6px);;
+    transform: rotate(45deg) translate(-8px, -6px);
+}

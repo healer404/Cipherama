@@ -1,0 +1,354 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient( 132deg,darkblue,blue,dodgerblue,skyblue);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 10s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+.pending-title h2{
+    font-family: 'Cute Font', cursive;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.pending-holder{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Cute Font', cursive;
+    text-decoration: none;
+}
+
+.col{
+    padding: 0;
+    margin: 0;
+}
+
+.pending-container{
+    background: linear-gradient(to right,orangered, #ff7724, #ff9a36);
+    margin-left: 5px;
+    padding-left: 0;
+    border-radius: 5px;
+
+}
+.margin-out{
+    padding: 0;
+    margin: 0;
+}
+
+.overall-container{
+    padding-bottom: 11px;
+    padding-left:0;
+    padding-top: 5px;
+    margin-left: 0;
+    background: transparent;
+}
+
+#JoinAir{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#JoinFire{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#JoinEarth{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#JoinWater{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+#LobbyHeader{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'Cute Font', cursive;
+    text-align: center;
+    padding: 0;
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.team-title{
+    text-align: center;
+    padding: 3px;
+    font-family: 'Cute Font', cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.air-box{
+    background: linear-gradient(to right, orange, yellow, #f3ff74);
+    border-radius: 5px;
+    border-color: #cbc300;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 50px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    border-width: 5px;
+    border-style: solid;
+
+}
+
+.air-image{
+    padding-top: 5px;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    transform: translateX(50%);
+}
+
+.air-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    opacity: 1;
+    transition: .5s ease;
+    border-radius: 5px;
+    background: linear-gradient(to top, #ff550a, #ffd015, #48ff08);
+}
+
+.air-image img{
+    display: block;
+    width: 80%;
+}
+
+.air-boxx:hover .air-overlay{
+    width: 100%;
+}
+
+
+.air-members{
+    font-family: 'Cute Font', cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #23cd12, #92f032, #f3f330);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #cbc300;
+}
+
+.member-count{
+    padding: 5px;
+}
+
+.team-title-air{
+    text-align: center;
+    padding: 0;
+    font-family: 'Cute Font', cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.fire-box{
+    background: linear-gradient(to right,#d14817, #d16227, #d1802e);
+    padding-top: 50px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: #D1111C;
+    border-width: 5px;
+    border-style: solid;
+}
+.fire-image{
+    padding-top: 0;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    transform: translateX(50%);
+}
+
+.fire-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    opacity: 1;
+    transition: .5s ease;
+    border-radius: 5px;
+    background: linear-gradient(to top, #890300,#ba0605, #ba3b37, #ba6b65);
+}
+
+.fire-members{
+    font-family: 'Cute Font', cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #d1211d, #d15141, #d16059);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d1111c;
+}
+
+.fire-image img{
+    display: block;
+    width: 80%;
+}
+
+.fire-boxx:hover .fire-overlay{
+    width: 100%;
+}
+
+.earth-box{
+    background: linear-gradient(#068900, #45c111, #5cdf25);
+    padding-top: 50px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: #116d1a;
+    border-width: 5px;
+    border-style: solid;
+}
+.earth-image{
+    padding-top: 0;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    transform: translateX(50%);
+}
+
+.earth-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    opacity: 1;
+    border-radius: 5px;
+    transition: .5s ease;
+    background: linear-gradient(to top, #2b7c09, #57bf0b, #47e635);
+}
+
+.earth-members{
+    font-family: 'Cute Font', cursive;
+    font-size: 25px;
+    background: linear-gradient(to right,#1a9229, #1cc536, #55f83a);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #116d1a;
+}
+
+.earth-image img{
+    display: block;
+    width: 80%;
+}
+
+.earth-boxx:hover .earth-overlay{
+    width: 100%;
+}
+
+.water-box{
+    background: linear-gradient(to right, #1613bb, #4863e2, #6590ed);
+    padding-top: 50px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: #3a14b2;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.water-image{
+    padding-top: 0;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    transform: translateX(50%);
+}
+
+
+.water-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    opacity: 1;
+    border-radius: 5px;
+    transition: .5s ease;
+    background: linear-gradient(to top, #0200b8, #2423d2, #5457e7);
+}
+
+.water-members{
+    font-family: 'Cute Font', cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #4d47fc, #7b76fc, #b6b2ff);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3a14b2;
+}
+
+.water-image img{
+    display: block;
+    width: 80%;
+}
+
+.water-boxx:hover .water-overlay{
+    width: 100%;
+}
+
+
+

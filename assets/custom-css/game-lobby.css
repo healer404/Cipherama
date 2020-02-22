@@ -1,0 +1,155 @@
+.section-top{
+    overflow: hidden;
+    position: relative;
+    background-image: url("../img/galaxy/image-1.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    animation: slide 20s infinite ease-in;
+}
+
+@keyframes slide {
+    0%{
+        background-image: url("../img/galaxy/image-1.jpg");
+    }
+    25%{
+        background-image: url("../img/galaxy/image-2.jpg");
+    }
+    50%{
+        background-image: url("../img/galaxy/image-3.jpeg");
+    }
+    75%{
+        background-image: url("../img/galaxy/image-4.jpeg");
+    }
+    100%{
+        background-image: url("../img/galaxy/image-5.jpg");
+    }
+}
+.background-dimmer{
+    width: 100%;
+    height: 100%;
+    background: rgba(15,15,15,0.9);
+}
+
+.game-lobby-header{
+    color: deepskyblue;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.team-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 450px;
+    border: 5px groove deepskyblue;
+}
+
+.team-logo img{
+    width: 100px;
+    border-radius: 100%;
+    margin-top: -50px;
+}
+.team-name-air{
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+.players-list-air{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.team-air{
+    padding: 0;
+    background: linear-gradient(to top, black, darkgoldenrod, goldenrod, gold, lightgoldenrodyellow);
+}
+.team-air:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.1, 1.1);
+}
+
+.team-name-earth{
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.players-list-earth{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.team-earth{
+    padding: 0;
+    background: linear-gradient(to top, black, darkgreen, green, lightgreen);
+}
+.team-earth:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.1, 1.1);
+}
+.team-name-fire{
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.players-list-fire{
+    margin-top: 20px;
+    color: snow;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.team-fire{
+    padding: 0;
+    background: linear-gradient(to top, black,darkred, red, orangered, orange);
+}
+.team-fire:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.team-name-water{
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.players-list-water{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.team-water{
+    padding: 0;
+    background: linear-gradient(to top, black, darkblue, blue, deepskyblue,  aqua, lightblue);
+}
+.team-water:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.players-waiting-list{
+    height: 450px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    background: rgba(97, 118, 125, 0.7);
+    overflow: auto;
+    border: 5px groove deepskyblue;
+}
+.players-waiting-list-holder{
+    height:350px;
+    width: 100%;
+}
+.leave-btn{
+    padding: 5px;
+}

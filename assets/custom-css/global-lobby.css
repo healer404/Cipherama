@@ -1,0 +1,290 @@
+.test{
+    border: 1px solid black;
+    background: #245269;
+}
+
+.sidebar-box{
+    padding: 0;
+    border: 1px solid deepskyblue;
+    text-decoration: none;
+    min-height: 280px;
+    max-height: 280px;
+}
+.sidebar-header{
+    background: #245269;
+}
+
+.sidebar-header-text{
+    margin:0;
+    padding: 1px 3px;
+    font-size: 20px;
+    color: white;
+}
+.btn-add-lobby{
+    margin: 6px;
+    font-size: 15px;
+    opacity: 2;
+}
+.btn-add-lobby:hover{
+    color:deepskyblue;
+}
+
+.btn-create-lobby{
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+.btn-create-lobby button{
+    color: white;
+    background: none;
+    outline: none;
+    border: 1px solid deepskyblue;
+    border-radius: 5px;;
+    padding: 1px 10px;
+    transition: 0.4s ease-in;
+    font-weight: bolder;
+}
+.btn-create-lobby button:hover{
+    color: black;
+    font-weight: bolder;
+    background: deepskyblue;
+    border-color: white;
+}
+
+.margin-off{
+    margin:0;
+    padding: 0;
+}
+.pre-container{
+    padding: 5px;
+    background-color: rgba(1,1,1,0.7);
+    color: white;
+}
+.chat{
+    color: white;
+    font-weight: bolder;
+}
+.sidebar-box-chats{
+    padding: 0;
+    border: 1px solid black;
+    text-decoration: none;
+    min-height: 450px;
+    max-height: 450px;
+    overflow: auto;
+    margin-top: 2px;
+}
+
+.sidebar-box-chats-messaging{
+
+}
+
+.message-box{
+    min-height: 33px;
+    max-height: 33px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.upper{
+    margin-top: -70px;
+}
+.no-overflow{
+    overflow: hidden;
+}
+
+.section-top{
+    overflow: hidden;
+    position: relative;
+    background-image: url("../img/galaxy/image-1.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    animation: slide 20s infinite ease-in;
+}
+
+@keyframes slide {
+    0%{
+        background-image: url("../img/galaxy/image-1.jpg");
+    }
+    25%{
+        background-image: url("../img/galaxy/image-2.jpg");
+    }
+    50%{
+        background-image: url("../img/galaxy/image-3.jpeg");
+    }
+    75%{
+        background-image: url("../img/galaxy/image-4.jpeg");
+    }
+    100%{
+        background-image: url("../img/galaxy/image-5.jpg");
+    }
+}
+.background-dimmer{
+    width: 100%;
+    height: 100%;
+    background: rgba(15,15,15,0.9);
+}
+
+.container-sidebar{
+    background-image: linear-gradient(to top, black, darkblue, blue, deepskyblue);
+    width:100%;
+    height: 100%;
+    padding:10px 10px;
+}
+
+.sidebar-margin-top{
+    margin-top: 10px;
+}
+
+.active-player-list{
+    color: black;
+    min-height: 250px;
+    max-height: 250px;
+    width:100%;
+    overflow: auto;
+    background-color: rgba(10, 10, 10, 0.5);
+    padding: 5px;
+}
+.sidebar-chat-container{
+    border: 1px solid deepskyblue;
+    height: 570px;
+}
+.margin-less{
+    margin: 0;
+    padding: 0 5px;
+}
+
+.player-messages{
+    min-height: 430px;
+    max-height: 430px;
+    overflow: auto;
+    background-color: rgba(10, 10, 10, 0.5);
+    width: 100%;
+    padding: 5px;
+}
+.send-message-container{
+    padding: 7px 0;
+    min-height: 140px;
+    max-height: 140px;
+    overflow: auto;
+    background-color: rgba(10, 10, 10, 0.5);
+    width: 100%;
+}
+
+.btn-send{
+    margin-top: 15px;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    border: 5px solid deepskyblue;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 5px;
+    width: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    background-clip: padding-box;
+    border: 0.1vh solid white;
+}
+::-webkit-scrollbar-track{
+    background-color: lightblue;
+}
+::-webkit-scrollbar-button:single-button{
+    background-color: black;
+    display: block;
+    border-style: solid;
+    height: 13px;
+    width: 16px;
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement{
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent #555555 transparent;
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover{
+    border-color: transparent transparent #777777 transparent;
+}
+::-webkit-scrollbar-button:single-button:vertical:increment{
+    border-width: 8px 8px 0 8px;
+    border-color: #555555 transparent transparent transparent;
+}
+::-webkit-scrollbar-button:single-button:vertical:single-button:increment:hover{
+    border-color: #777777 transparent transparent transparent;
+}
+
+.container-container{
+    margin-top: 20px;
+}
+.container-container img{
+    width:100%;
+    height: 100%;
+    border: 10px groove cyan;
+    box-shadow: 10px 10px 15px black;
+}
+
+.addlobbyform{
+    position: relative;
+}
+.addlobbyinput{
+    padding: 10px;
+}
+
+.mapcontainer{
+    align-items: center;
+    align-content: center;
+}
+
+.maplobby{
+    text-align: center;
+    width:220px;
+    height:220px;
+}
+
+.dialog-box-add-lobby{
+    border: 2px groove deepskyblue;
+    background: linear-gradient(to top, black, darkblue, blue, deepskyblue);
+    box-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+.cancel-btn{
+    background: snow;
+    color: deepskyblue;
+    padding: 6px    ;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.cancel-btn:hover{
+    background: lightblue;
+    color: blue;
+}
+.active-lobby-list{
+    color: black;
+    padding: 5px;
+    min-height: 210px;
+    max-height: 210px;
+    overflow: auto;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+.modal-title{
+    font-weight: bolder;
+}
+.error-dialogue-box{
+    border: 5px groove deepskyblue;
+    padding: 20px 10px;
+    color: white;
+    opacity: 1;
+    background: linear-gradient(to top, black, darkblue, blue, deepskyblue);
+}
+.error-dialogue-box button{
+    opacity: 1;
+    color: deepskyblue;
+}
+.error-dialogue-box button:hover{
+    transition: 0.4s ease-in;
+    color: darkred;
+    opacity: 2;
+}
